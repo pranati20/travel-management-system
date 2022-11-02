@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(235, 219, 215);
+    background-image:url("https://sofyahscorner.com/wp-content/uploads/2021/03/PRAGUE-1440x1401.jpeg");
+    background-repeat:no-repeat; 
+    background-position:center;
+    background-size: 55%;
+    
+    
+    
+}
+h1,h5 {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-family:Garamond, serif;
+    font-size:110px;
+    margin-bottom:14%;
+    font-style:italic,bold;
+    background:rgba(198, 161, 161, 0.8);
+  }
+
+
+#second{color:rgb(102, 0, 255);
+    background-color:rgb(255, 0, 144);
+    font-weight:bold;
+    font-style:italic;
+    
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 3px solid #430045;
+    text-align: center;
+    padding: 12px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #0f7bce;
+    
+  }
+
+#texts{
+  font-family:"Garamond, serif";
+  font-size:30px;
+  text-align:center;
+  font-style:bold;
+  background:rgba(0, 0, 0, 0.5);
+  color:white;
+
+
+}
+#text2{
+  font-family: Garamond, serif;
+  font-size:50px;
+  text-align:center;
+  background:rgba(0, 0, 0, 0.5);
+  color:white;
+ 
+
+  
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+  cursor:pointer;
+}
+.container{
+  height: 200px;
+  width: 500px;
+ 
+  margin-top: 30px;
+  text-align:center;
+}

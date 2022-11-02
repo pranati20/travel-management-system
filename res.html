@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="refresh" content=";url=res.html">
+        <link rel="stylesheet" href="stylesforres.css">
+
+  
+        </head>
+        <body>
+            <h3><center>Make your reservations right now!</center></h3>
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            
+            <form>
+                <div class="div1">
+                <label for="cars">Where do you want to go?</label>
+                <select id="box">
+                  <option value="volvo">Hyderabad</option>
+                  <option value="saab">Delhi</option>
+                  <option value="fiat">Mumbai</option>
+                  <option value="audi">Jaipur</option>
+                  <option value="audi">Bengaluru</option>
+                  <option value="audi">Chennai</option>
+                  <option value="audi">Kolkata</option>
+                  <option value="audi">Ahmedabad</option>
+                  <option value="audi">Lucknow</option>
+                </select>
+
+                <form >
+                    <label for="birthday">When do you want to go?</label>
+                    <input type="date" id="birthday" name="birthday"></form>
+              </form>
+
+             
+                <label for="points">  Guests:</label>
+                <input type="number" id="points" name="points" step="3">
+                <input type="submit">
+              </form>
+            </div>
+            <br><br>
+
+             
+            <!-- <table id="table">
+                <tr>
+                  <th>PACKAGE</th>
+                  <th>NUMBER OF HOURS</th>
+                  <th>OFFERS</th>
+                  <th>AVAILABLE VEHICLES</th>
+                </tr>
+                <tr>
+                  <td>INTERCITY</td>
+                  <td>MAXIMUM: 3-4 hrs</td>
+                  <td>Diwali offer: 20% off</td>
+                  <td>Bike, bullet, SUV's, Mini's</td>
+                </tr>
+                <tr>
+                  <td>INTRACITY</td>
+                  <td>MAXIMUM: 8-9 hrs</td>
+                  <td>Diwali offer: 15% off</td>
+                  <td>Bikes, SUV's, Mini's</td>
+                </tr>
+                <tr>
+                  <td>PRE-BOOKING</td>
+                  <td>MAXIMUM: 24 hours </td>
+                  <td>Diwali offer: 45% off + early bird offer(5% off)</td>
+                  <td>Bike, bullet, SUV's, Mini's</td>
+              </table> -->
+
+              <h2>PACKAGES</h2>
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>PREMIUM</th>
+            <th>GOLD</th>
+            <th>STANDARD</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>FOOD AND DRINKS INCLUDED</td>
+            <td>FOOD AND DRINKS INCLUDED</td>
+            <td>FOOD INCLUDED</td>
+           
+        </tr>
+        <tr>
+            <td>AIRPORT SHUTTLE SERVICE AVAILABLE</td>
+            <td>-</td>
+            <td>-</td>
+            
+        </tr>
+        <tr>
+            <td>7 nights 8 days</td>
+            <td>5 nights 4 days</td>
+            <td>4 nights 2 days</td>
+            
+        </tr>
+        <tr>
+            <td>5-star hotel</td>
+            <td>4-star hotel</td>
+            <td>3-start hotel</td>
+            
+        </tr>
+        <tr>
+            <td>FRREBIES INCLUDED</td>
+            <td>-</td>
+            <td>-</td>
+          
+        </tr>
+        <tr>
+            <td>PERSONAL ASSISTANT</td>
+            <td>-</td>
+            <td>-</td>
+       
+        </tr>
+   
+        <tbody>
+    </table>
+
+    
+<form>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> PREMIUM</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> GOLD</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> STANDARD</label><br><br>
+
+</form>
+<h2> SUBMIT YOUR AADHAR CARD FOR VERIFICATION</h2>
+
+<form action="upload.php" method="POST" enctype="multipart/form-data">
+    <input type="file" name="image"/><br><br>
+    <input type="submit"/>
+  
+    <button onclick="myFunction()">SUBMIT ALL DETAILS</button>
+
+
+  </form>
+</div>
+<script>
+    function myFunction() {
+      alert("SUBMITTING YOUR RESPONSES...");
+    }
+    </script>
+        </body>
+        </html>
