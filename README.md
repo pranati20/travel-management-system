@@ -1,8 +1,12 @@
 Travel Management System
-Overview
+
+
+Overview:
+
 The Travel Management System is a web application designed to help users plan and book their travel arrangements efficiently. Built with HTML, CSS, and PHP, this system allows users to specify their travel destination and provides relevant accommodation options based on their preferences.
 
-Features
+Features:
+
 User Authentication: Users can register, log in, and manage their profiles.
 Destination Search: Users can enter their desired travel destination and dates.
 Booking Management: Users can book flights, hotels, and car rentals.
